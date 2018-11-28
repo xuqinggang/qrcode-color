@@ -1,0 +1,31 @@
+{
+  "name": "qrcode-color",
+  "version": "1.0.0",
+  "description": "基于node-qrcode库，用node实现二维码的美化（logo+随机色）",
+  "keywords": [
+    "node",
+    "qrcode",
+    "qrcode-color",
+    "png composite",
+    "jimp"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuqinggang/qrcode-color.git"
+  },
+  "author": "xuqinggang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuqinggang/qrcode-color/issues"
+  },
+  "homepage": "https://github.com/xuqinggang/qrcode-color#readme",
+  "dependencies": {
+    "jimp": "^0.5.6",
+    "pngjs": "^3.3.3",
+    "qrcode": "^1.3.2"
+  }
+}
